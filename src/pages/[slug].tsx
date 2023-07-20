@@ -19,7 +19,7 @@ const ProfileFeed = (props: { userId: string }) => {
     </div>
   );
 };
-export default function ProfilePage({ username }) {
+export default function ProfilePage({ username }: { username: string }) {
   const { data } = api.profile.getUserByUsername.useQuery({
     username,
   });
