@@ -57,7 +57,6 @@ import { createServerSideHelpers } from "@trpc/react-query/server";
 
 import { appRouter } from "~/server/api/root";
 import superjson from "superjson";
-import { trpc } from "utils/trpc";
 import { prisma } from "~/server/db";
 import { PageLayout } from "~/components/layout";
 import Image from "next/image";
