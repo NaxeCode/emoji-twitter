@@ -1,4 +1,4 @@
-# Emoji Twitter Clone
+# Emoji Twitter Clone 🐣
 
 Dependencies:
 - [Next.js](https://nextjs.org)
